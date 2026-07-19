@@ -17,7 +17,7 @@ If you are a complete beginner to python and don't even have it installed, I'd r
 ```base
 filters:
   and:
-    - file.basename != this.file.name
+    - file.basename != "HOME"
 formulas:
   parent: file.folder.split("/").slice(0,1)
 views:
