@@ -1,0 +1,29 @@
+{
+  "/": [
+    "HOME",
+    "Basics",
+    "Data Types",
+    "Functions"
+  ],
+  "/Basics": [
+    "Basics",
+    "Installing Python",
+    "First lines of code",
+    "Maths",
+    "Variables",
+    "if-statements",
+    "Calculator"
+  ],
+  "/Data Types": [
+    "Data Types",
+    "String",
+    "Integer",
+    "Floating Point",
+    "Boolean"
+  ],
+  "/Functions": [
+    "Functions",
+    "print()",
+    "input()"
+  ]
+}
