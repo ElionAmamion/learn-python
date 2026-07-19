@@ -19,9 +19,6 @@ If you are a complete beginner to python and don't even have it installed, I'd r
 filters:
   and:
     - file.basename != this.file.basename
-    - not:
-        - file.folder == "Data Typest"
-        - file.folder == "Functionst"
 properties:
   file.folder:
     displayName: category
