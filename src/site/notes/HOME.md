@@ -20,8 +20,8 @@ filters:
   and:
     - file.basename != this.file.basename
     - not:
-        - file.folder == "Data Types"
-        - file.folder == "Functions"
+        - file.folder == "Data Typest"
+        - file.folder == "Functionst"
 properties:
   file.folder:
     displayName: category
