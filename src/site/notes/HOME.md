@@ -14,27 +14,22 @@ If you are a complete beginner to python and don't even have it installed, I'd r
 > If you already know the basics of programming with variable and different data types? Maybe you should start here.
 > Maybe you've already mastered functions and classes, give PyGame a try.
 
-
 ```base
 filters:
   and:
-    - file.basename != this.file.basename
-properties:
-  file.folder:
-    displayName: category
+    - file.basename != this.file.name
+formulas:
+  parent: file.folder.split("/").slice(0,1)
 views:
   - type: cards
     name: HOME
     groupBy:
-      property: file.folder
+      property: formula.parent
       direction: ASC
     order:
       - file.name
     sort:
       - property: order
         direction: ASC
-    image: note.banner
-    imageAspectRatio: 0.5
-    cardSize: 200
 
 ```
